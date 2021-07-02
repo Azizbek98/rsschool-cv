@@ -8,8 +8,7 @@ title: Azizbek Samatov's CV
 Frontend Web Developer, UI/UX designer.
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="azizbeksamatov98@gmail.com">azizbeksamatov98@gmail.com</a>
 </div>
 
 ## Education
