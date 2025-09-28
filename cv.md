@@ -53,3 +53,51 @@ function bubbleSort(arr) {
 let numbers = [5, 3, 8, 4, 2];
 console.log(bubbleSort(numbers)); // [2, 3, 4, 5, 8]
 ```
+
+## Work Experience
+
+**Frontend Developer**
+~ UpWork.com (Freelance)
+~ 03/2022 - Present
+
+- Implementing new changes and refining client projects.
+- Developing adaptive and responsive web pages using HTML, CSS, and JavaScript based on design layouts.
+- Ensuring cross-browser compatibility and web page accessibility.
+- Optimizing web pages for speed and performance.
+
+**Frontend Developer**
+~ Bizzone Group LLC
+~ 10/2020 - 02/2022
+
+- Collaborating with designers to develop projects based on approved layouts.
+- Creating user-friendly, adaptive, and responsive web pages using HTML, CSS, and JavaScript.
+- Ensuring cross-browser compatibility and web page accessibility.
+- Optimizing web pages for speed and performance.
+- Providing technical support for existing projects.
+
+**Frontend Developer Intern**
+~ OSG(Online Service Group) LLC
+~ 11/2019 - 05/2020
+
+- Making new changes and refining client projects
+- Ensuring cross-browser compatibility and web page accessibility.
+- Optimizing web pages for speed and performance.
+
+## Education
+
+**Inha University in Tashkent**
+~ Tashkent, BSc
+
+B.Eng. Computer Science and Engineering
+~ 09/2016 - 07/2020
+
+## Achievements
+
+**Certificate**, International English Language Testing System (IELTS) - Band Score: 7.0
+~ 2025
+
+**Certificate**, Hackerrank.com - JavaScript
+~ 2025
+
+**Certificate**, THE ROLLING SCOPES SCHOOL - Node.JS 2023 UZ
+~ 2023
