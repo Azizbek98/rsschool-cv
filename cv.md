@@ -5,7 +5,7 @@
 </center>
 
 <h1 style="text-align: center; color: orange; margin-top: 0"> Azizbek Samatov </h1>
-<h4 style="text-align: center; margin-top: -24px;">Frontend Web Developer</h4>
+<h4 style="text-align: center; margin-top: -24px; color: black;">Frontend Web Developer</h4>
 
 <center>
     Gmail:<a href="mailto:azizbeksamatov98@gmail.com">azizbeksamatov98@gmail.com</a> | GitHub: <a href="https://github.com/Azizbek98">Azizbek98</a> | Discord: <a href="https://discord.com/">@mr.samatov</a>
