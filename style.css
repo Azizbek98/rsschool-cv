@@ -8,6 +8,7 @@
   --white: #fff;
   --gray: #ccc;
   --background-color: #212529;
+  --background-dark: #0c0c0c;
   --count-background: #292b2e;
   --about-background: rgba(255, 255, 255, 0.08);
 
@@ -28,6 +29,7 @@
 body {
   height: 100vh;
   background: var(--background-color);
+  scroll-behavior: smooth;
 }
 
 .btn {
@@ -300,3 +302,30 @@ body {
   color: var(--white);
 }
 /* Skills Section End */
+
+/*Footer Start*/
+.footer-content {
+  margin-top: 4rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--background-dark);
+}
+
+.footer-content .footer-logo img {
+  height: 2.5rem;
+}
+
+.footer-content .footer-small {
+  color: var(--white);
+  font-weight: var(--font-w-500);
+  font-size: 1rem;
+}
+
+.footer-content .footer-repo a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+/* Footer End*/
