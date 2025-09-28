@@ -3,12 +3,13 @@
 
 /* General Styles Start */
 :root {
-  --primary-color: #ffb742;
-  --primary-dark: #fb8c00;
+  --primary-color: #ffdb20;
+  --primary-dark: #ffb742;
   --white: #fff;
   --gray: #ccc;
   --background-color: #212529;
   --count-background: #292b2e;
+  --about-background: rgba(255, 255, 255, 0.08);
 
   --font-w-300: 300;
   --font-w-400: 400;
@@ -197,3 +198,43 @@ body {
   color: var(--primary-color);
 }
 /* Count Section End */
+
+/* About Section Start */
+.about .about-title {
+  margin: 3.8rem auto;
+  padding: 0.62rem 1.25rem;
+  width: 10.6rem;
+  background-color: var(--about-background);
+  color: var(--primary-color);
+  border-radius: 0.75rem;
+  align-items: center;
+}
+
+.about .about-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  padding: 0 3.125rem;
+}
+
+.about .about-img img {
+  width: 19rem;
+}
+
+.about .about-img .description h3 {
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: var(--font-w-600);
+  margin-bottom: 0.625rem;
+}
+
+.about .about-img .description p {
+  color: var(--gray);
+  font-size: 0.875rem;
+}
+
+.about .about-img .description button {
+  margin-top: 1.875rem;
+}
+/* About Section End */
