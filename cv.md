@@ -1,4 +1,10 @@
-<h1 style="text-align: center; color: orange;"> Azizbek Samatov </h1>
+<center>
+
+![My Photo](assets/my-photo.png "my photo here ...")
+
+</center>
+
+<h1 style="text-align: center; color: orange; margin-top: -16px"> Azizbek Samatov </h1>
 <h4 style="text-align: center; margin-top: -24px;">Frontend Web Developer</h4>
 
 <center>
