@@ -48,6 +48,11 @@ body {
 .primary-btn:hover {
   background-color: var(--primary-dark);
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 1320px;
+}
 /* General Styles End */
 
 /* Header Navigation Bar Start */
@@ -221,7 +226,7 @@ body {
 }
 
 .about .about-img img {
-  width: 19rem;
+  width: 20rem;
 }
 
 .about .about-img .description h3 {
@@ -233,7 +238,8 @@ body {
 
 .about .about-img .description p {
   color: var(--gray);
-  font-size: 0.875rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
 }
 
 .about .about-img .description button {
@@ -270,7 +276,8 @@ body {
 
 .skills .skills-content .content-left .info p {
   color: var(--gray);
-  font-size: 0.875rem;
+  font-size: 1.2rem;
+  line-height: 1.75rem;
 }
 
 .skills .skills-content .content-left button {
@@ -302,6 +309,41 @@ body {
   color: var(--white);
 }
 /* Skills Section End */
+
+/* Code Example Section Start */
+.code .code-title {
+  margin: 3.8rem auto;
+  padding: 0.62rem 1.25rem;
+  width: 13.65rem;
+  background-color: var(--about-background);
+  color: var(--primary-color);
+  border-radius: 0.75rem;
+  align-items: center;
+}
+
+.code .code-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.code .code-img img {
+  height: 28rem;
+}
+
+.code .description h3 {
+  color: var(--white);
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.code .description p {
+  color: var(--gray);
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+}
+/* Code Example Section End */
 
 /*Footer Start*/
 .footer-content {
