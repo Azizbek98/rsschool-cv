@@ -8,6 +8,7 @@
   --white: #fff;
   --gray: #ccc;
   --background-color: #212529;
+  --count-background: #292b2e;
 
   --font-w-300: 300;
   --font-w-400: 400;
@@ -121,3 +122,78 @@ body {
   width: 20rem;
   margin-top: 4.25rem;
 }
+/* Hero Section End */
+
+/* Count Section Start */
+.count {
+  margin-top: 3.125rem;
+  padding: 0 3.125rem;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+}
+
+.count .count-item {
+  background: var(--count-background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.25rem;
+  width: 100%;
+  border-radius: 10px;
+  padding: 0 30px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.count .count-item:hover {
+  border-color: var(--primary-color);
+}
+
+.count .count-item .icon {
+  height: 3rem;
+  width: 3rem;
+  background: var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.count .count-item:hover .icon {
+  background: var(--primary-color);
+}
+
+.count .count-item .icon i {
+  font-size: 2rem;
+}
+
+.count .count-item .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.count .count-item .info h3 {
+  font-size: 1.75rem;
+  color: var(--primary-color);
+}
+
+.count .count-item .info p {
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: var(--font-w-600);
+}
+
+.count .count-item > i {
+  color: var(--white);
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.count .count-item:hover > i {
+  color: var(--primary-color);
+}
+/* Count Section End */
