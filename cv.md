@@ -1,6 +1,6 @@
 <center>
 
-![My Photo](assets/my-photo.png "my photo here ...")
+![my-photo](./assets/my-photo.png "my photo here ...")
 
 </center>
 
