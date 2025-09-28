@@ -1,10 +1,10 @@
 <center>
 
-![my-photo](./assets/my-photo.png "my photo here ...")
+<img src="./assets/my-photo.png" />
 
 </center>
 
-<h1 style="text-align: center; color: orange; margin-top: -16px"> Azizbek Samatov </h1>
+<h1 style="text-align: center; color: orange; margin-top: 0"> Azizbek Samatov </h1>
 <h4 style="text-align: center; margin-top: -24px;">Frontend Web Developer</h4>
 
 <center>
