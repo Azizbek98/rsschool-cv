@@ -13,8 +13,6 @@ header:
   link: https://discord.com/
 ---
 
-<link rel="stylesheet" href="assets/style.css">
-
 ## Self-Introduction
 
 **-- 👋 𝗛𝗶, my name is Azizbek and I'm a 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿. I am passionate about creating beautiful, responsive websites that are easy to use and navigate. With some experience in 𝗛𝗧𝗠𝗟, 𝗖𝗦𝗦, 𝗮𝗻𝗱 𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁, I strive to deliver efficient and effective solutions that meet the needs of both clients and users. Whether working independently or as part of a team, I am dedicated to producing high-quality work and staying up-to-date with the latest technologies.**
