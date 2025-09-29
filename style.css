@@ -345,6 +345,133 @@ body {
 }
 /* Code Example Section End */
 
+/* Projects Section Start */
+.projects .projects-title {
+  margin: 3.8rem auto;
+  padding: 0.62rem 1.25rem;
+  width: 18.4rem;
+  background-color: var(--about-background);
+  color: var(--primary-color);
+  border-radius: 0.75rem;
+  align-items: center;
+}
+
+.projects .projects-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+}
+
+.projects .projects-card {
+  max-width: 24rem;
+  padding: 2rem;
+  background: var(--count-background);
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  transition: all 0.3s ease;
+}
+
+.projects .projects-card:hover {
+  border-color: var(--primary-color);
+  box-shadow: rgba(255, 219, 32, 0.3) 0px 19px 38px,
+    rgba(255, 219, 32, 0.22) 0px 15px 12px;
+}
+
+.projects .projects-card .icon {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  border-radius: 50%;
+  background: var(--white);
+  transition: all 0.3s ease;
+}
+
+.projects .projects-card:hover .icon {
+  background: var(--primary-color);
+}
+
+.projects .projects-card .card-content .card-title {
+  font-size: 1.75rem;
+  color: var(--primary-color);
+}
+
+.projects .projects-card .card-content .card-text {
+  margin-top: 1.4rem;
+  font-size: 1.2rem;
+  color: var(--white);
+}
+
+.projects .projects-card .card-content .btn {
+  display: block;
+  margin-top: 1.4rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--white);
+}
+/* Projects Section End */
+
+/* Education Section Start */
+.education .education-title {
+  margin: 3.8rem auto;
+  padding: 0.62rem 1.25rem;
+  width: 10rem;
+  background-color: var(--about-background);
+  color: var(--primary-color);
+  border-radius: 0.75rem;
+  align-items: center;
+}
+
+.education .education-content {
+  margin-top: 2.5rem;
+  padding: 3rem;
+  display: flex;
+  border: 1px solid transparent;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: var(--count-background);
+  transition: all 0.3s ease;
+}
+
+.education .education-content:first-child {
+  margin-top: 0;
+}
+
+.education .education-content:hover {
+  border-color: var(--primary-color);
+}
+
+.education .education-content .content-title {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.education .education-content .content-text {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: var(--white);
+}
+
+.education .education-content .content-period {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.education .education-content .content-logo img {
+  height: 5rem;
+}
+/* Education Section End */
+
 /*Footer Start*/
 .footer-content {
   margin-top: 4rem;
