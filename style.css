@@ -35,7 +35,7 @@ body {
 .btn {
   border: none;
   padding: 6px 30px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border-radius: 6px;
   transition: background-color 0.3s ease;
   cursor: pointer;
@@ -70,6 +70,7 @@ body {
 
 .navbar .navbar-menu {
   display: flex;
+  color: var(--white);
 }
 
 .navbar .navbar-menu .navbar-menu__item {
@@ -91,6 +92,17 @@ body {
 .navbar .navbar-menu .navbar-menu__item:last-child a {
   margin: 0;
 }
+
+.navbar .navbar-buttons .burger-btn {
+  display: none;
+  margin-left: 1.5rem;
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-weight: var(--font-w-700);
+  color: var(--white);
+  cursor: pointer;
+}
 /* Header Navigation Bar End */
 
 /* Hero Section Start */
@@ -98,6 +110,7 @@ body {
   height: 40rem;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
 }
@@ -137,7 +150,7 @@ body {
   margin-top: 3.125rem;
   padding: 0 3.125rem;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
@@ -217,7 +230,7 @@ body {
   align-items: center;
 }
 
-.about .about-img {
+.about .about-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -225,24 +238,24 @@ body {
   padding: 0 3.125rem;
 }
 
-.about .about-img img {
+.about .about-content img {
   width: 20rem;
 }
 
-.about .about-img .description h3 {
+.about .about-content .description h3 {
   color: var(--white);
   font-size: 2rem;
   font-weight: var(--font-w-600);
   margin-bottom: 0.625rem;
 }
 
-.about .about-img .description p {
+.about .about-content .description p {
   color: var(--gray);
   font-size: 1rem;
   line-height: 1.75rem;
 }
 
-.about .about-img .description button {
+.about .about-content .description button {
   margin-top: 1.875rem;
 }
 /* About Section End */
@@ -500,3 +513,57 @@ body {
   color: var(--white);
 }
 /* Footer End*/
+
+/* Media Queries Start */
+@media (max-width: 767px) {
+  .navbar .navbar-menu {
+    display: none;
+  }
+
+  .navbar .navbar-buttons .burger-btn {
+    display: inline-block;
+  }
+
+  .about .about-content {
+    flex-direction: column;
+  }
+
+  .about .about-content .description {
+    text-align: center;
+  }
+
+  .skills .skills-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .code .code-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .code .code-content .description {
+    margin: 0 1.2rem;
+  }
+
+  .projects .projects-content {
+    flex-direction: column;
+  }
+
+  .education .education-content {
+    margin: 3rem;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+/* Media Queries End */
