@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
       rel="icon"
       href="./assets/logo.svg"
       sizes="any"
       type="image/svg+xml"
-    >
+    />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
-    >
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./style.css">
+    />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
 
     <title>Azizbek Samatov | RSSchool Website Task</title>
   </head>
@@ -23,7 +23,7 @@
     <header class="container">
       <nav class="navbar">
         <a class="navbar-logo" href="#">
-          <img src="./assets/logo.svg" alt="navbar logo">
+          <img src="./assets/logo.svg" alt="navbar logo" />
         </a>
 
         <ul class="navbar-menu">
@@ -59,7 +59,7 @@
           class="hero-image"
           src="./assets/hero-image.svg"
           alt="hero image logo"
-        >
+        />
       </section>
 
       <section id="contact-info" class="count container">
@@ -100,7 +100,7 @@
       <section id="about" class="about container">
         <h2 class="about-title">Self-Introduction</h2>
         <div class="about-img">
-          <img src="./assets/my-photo.png" alt="author's image">
+          <img src="./assets/my-photo.png" alt="author's image" />
           <div class="description">
             <h3>About Me</h3>
             <p>
@@ -172,8 +172,25 @@
       <section id="code" class="code container">
         <h2 class="code-title">Code Example</h2>
         <div class="code-content">
-          <div class="code-img">
-            <img src="./assets/code.png" alt="author's code example">
+          <div class="code-example">
+            <pre><code>
+              // Simple Bubble Sort in JavaScript
+              function bubbleSort(arr) {
+                let n = arr.length;
+                for (let i = 0; i < n - 1; i++) {
+                  for (let j = 0; j < n - i - 1; j++) {
+                    if (arr[j] > arr[j + 1]) {
+                      // Swap elements
+                      [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+                    }
+                  }
+                }
+                return arr;
+              }
+              
+              const numbers = [5, 3, 8, 4, 2];
+              console.log('Sorted array:', bubbleSort(numbers));
+            </code></pre>
           </div>
           <div class="description">
             <h3>Simple Bubble Sort</h3>
@@ -264,7 +281,7 @@
           </div>
           <div class="content-right">
             <div class="content-logo">
-              <img src="./assets/iut-logo.png" alt="university logo">
+              <img src="./assets/iut-logo.png" alt="university logo" />
             </div>
           </div>
         </div>
@@ -281,7 +298,7 @@
           </div>
           <div class="content-right">
             <div class="content-logo">
-              <img src="./assets/ielts.png" alt="british council logo">
+              <img src="./assets/ielts.png" alt="british council logo" />
             </div>
           </div>
         </div>
@@ -294,7 +311,7 @@
           <a
             href="https://github.com/rolling-scopes-school/qualifying-stage/blob/main/tasks/cv/html-css-git.md"
           >
-            <img src="./assets/rs-school-logo.svg" alt="rsschool logo">
+            <img src="./assets/rs-school-logo.svg" alt="rsschool logo" />
           </a>
         </div>
         <small class="footer-small">
